@@ -8,7 +8,7 @@ arch=('any')
 url="https://github.com/piotr-marendowski/${_pkgname}"
 license=('MIT')
 provides=($_pkgname)
-conflicts=($_pkgname)
+conflicts=($_pkgname 'neofetch' 'neofetch-git')
 depends=('bash')
 optdepends=(
   'feh: Wallpaper Display'
